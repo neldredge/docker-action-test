@@ -1,0 +1,12 @@
+# action.yml
+name: 'Cross compile and emulate'
+description: 'Compile and run an ARM binary'
+# no inputs
+outputs:
+  result: # id of output
+    description: 'The result, should be eleven'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  # no args
+  

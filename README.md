@@ -1,2 +1,4 @@
 # docker-action-test
-Testing of docker actions
+
+A docker action that does cross-compilation and emulation
+
